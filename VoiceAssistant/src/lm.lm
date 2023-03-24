@@ -1,0 +1,83 @@
+Language model created by QuickLM on Wed Mar 22 19:19:53 EDT 2023
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 4 sentences and 16 words
+
+\data\
+ngram 1=16
+ngram 2=23
+ngram 3=21
+
+\1-grams:
+-1.1614 </s> -0.3010
+-1.1614 <s> -0.2700
+-1.4624 AH -0.2780
+-1.7634 CHROME -0.2858
+-1.7634 CLOSE -0.2858
+-1.4624 G -0.2780
+-1.7634 GOOGLE -0.2858
+-1.7634 HELLO -0.2935
+-1.7634 HH -0.2858
+-1.4624 K -0.2700
+-1.2863 L -0.2452
+-1.7634 M -0.2700
+-1.2863 OW -0.2536
+-1.7634 R -0.2780
+-1.7634 S -0.2700
+-1.7634 UW -0.2858
+
+\2-grams:
+-0.9031 <s> CHROME 0.0000
+-0.9031 <s> CLOSE 0.0000
+-0.9031 <s> GOOGLE 0.0000
+-0.9031 <s> HELLO 0.0000
+-0.3010 AH L 0.0000
+-0.3010 CHROME K -0.1761
+-0.3010 CLOSE K -0.1761
+-0.6021 G AH 0.0000
+-0.6021 G UW 0.0000
+-0.3010 GOOGLE G -0.1761
+-0.3010 HELLO HH 0.0000
+-0.3010 HH AH 0.0000
+-0.6021 K L -0.1249
+-0.6021 K R 0.0000
+-0.7782 L </s> -0.3010
+-0.4771 L OW -0.1249
+-0.3010 M </s> -0.3010
+-0.7782 OW </s> -0.3010
+-0.7782 OW M 0.0000
+-0.7782 OW S 0.0000
+-0.3010 R OW -0.2218
+-0.3010 S </s> -0.3010
+-0.3010 UW G -0.1761
+
+\3-grams:
+-0.3010 <s> CHROME K
+-0.3010 <s> CLOSE K
+-0.3010 <s> GOOGLE G
+-0.3010 <s> HELLO HH
+-0.6021 AH L </s>
+-0.6021 AH L OW
+-0.3010 CHROME K R
+-0.3010 CLOSE K L
+-0.3010 G AH L
+-0.3010 G UW G
+-0.3010 GOOGLE G UW
+-0.3010 HELLO HH AH
+-0.3010 HH AH L
+-0.3010 K L OW
+-0.3010 K R OW
+-0.6021 L OW </s>
+-0.6021 L OW S
+-0.3010 OW M </s>
+-0.3010 OW S </s>
+-0.3010 R OW M
+-0.3010 UW G AH
+
+\end\

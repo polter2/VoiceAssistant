@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="speech-to-text">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/speech-to-text.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
